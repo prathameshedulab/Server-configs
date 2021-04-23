@@ -69,6 +69,9 @@ ufw allow ssh
 echo "allowing mysql"
 ufw allow 3306
 
+echo "allowing mongodb"
+ufw allow 27017
+
 echo "allowing http"
 ufw allow 80
 
